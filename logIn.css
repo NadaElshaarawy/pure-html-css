@@ -1,0 +1,37 @@
+body{
+    background-color: bisque;
+}
+.header{
+    height: 150px;
+    font-size: 90px;
+    font-family: fantasy;
+    color: firebrick;
+    background-color: beige;
+    text-align: center;
+}
+form.form-horizontal{
+       margin-top: 130px;
+    margin-bottom: 148px;
+    border: solid;
+    padding: 40px;
+    border-radius: 10px;
+    width: 631px;
+    margin-left: 350px;
+        background-color: beige;
+
+}
+div.footer{
+        background-color: darkgray;
+    margin-bottom: 0px;
+    padding: 5px;
+    height: 75px;
+}
+div.right{
+        float: left;
+    padding: 14px;
+}
+div.accounts{
+        
+    float: right;
+    padding: 17px;
+}

@@ -1,0 +1,103 @@
+body{
+    background-color: bisque;
+}
+.header{
+    height: 150px;
+    font-size: 90px;
+    font-family: fantasy;
+    color: black;
+    background-color: beige;
+    text-align: center;
+}
+.contact
+{
+    background-color: #252f31;
+    overflow: hidden;
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+
+.contact .cont-info
+{
+    width: 50%;
+    float: left;
+}
+.contact .cont-info h2
+{
+    color:#fff;
+    margin-left: 40px;
+}
+
+.contact .cont-info strong
+{
+    color:#fff;
+}
+.contact .cont-info p
+{
+    color:#6a6e67;
+    line-height: 30px;
+    margin-left: 40px;
+}
+
+.contact .form
+{
+    width: 45%;
+    float: right;
+    margin-top: 10px
+}
+
+.contact .form label
+{
+    color: #fff;
+    display: block;
+    margin-bottom: 10px
+}
+
+.contact .form input
+{
+    background-color: #4b5557;
+    width: 70%;
+    border: 0;
+    padding: 7px;
+    margin-bottom: 10px;
+    color:#fff;
+}
+
+.contact .form textarea 
+{
+    background-color:#4b5557;
+    height: 250px;
+    width: 70%;
+    margin-bottom: 15px;
+    padding: 10px;
+    color: #fff;
+    border: 0;
+}
+.contact .form button
+{
+    display: block;
+    padding: 10px 20px;
+    background-color: #191e22;
+    color: #fff;
+    border: 0;
+    transition:all .5s ease-in-out;
+}
+.contact .form button:hover{
+    background-color: #fff;
+    color: #191e22;
+}
+ div.footer{
+      background-color: aliceblue;
+    margin-bottom: 0px;
+    padding: 5px;
+    height: 70px;
+}
+div.right{
+        float: left;
+    padding: 14px;
+}
+div.accounts{
+        
+    float: right;
+    padding: 17px;
+}

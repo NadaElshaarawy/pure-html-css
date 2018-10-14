@@ -1,0 +1,397 @@
+/********************************************************* Start main style ********************************************************/
+body{
+    background-color: pink;
+}
+.container
+{
+    width: 1170px;
+    margin: auto;  
+   /* background-color: pink;*/
+}
+.clearfix
+{
+    clear: both;
+}
+hr
+{
+    width:98%;
+}
+
+/********************************************************* Start header *************************************************************/
+
+
+.item
+{
+    height: 600px;
+    
+}
+.item img
+{
+    width: 100%;
+    height: 600px
+}
+
+.header .navbar
+{
+    background-color: #252f31;
+    color:#fff;
+    overflow: hidden;
+    
+}
+
+.header .navbar h2
+{
+    float: left;
+    font-size: 40px;
+   font-family: fantasy
+}
+.header .navbar h2 span
+{
+    color:#2ecc71;
+}
+
+.header .navbar ul
+{
+    list-style: none;
+    padding-left: 0px;
+    float: right;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.header .navbar ul li
+{
+    float: left;
+    display: inline-block;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 17px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    margin: 0;
+    transition:background .5s ease-in-out;
+}
+
+.header .navbar ul a
+{
+    color:#fff;
+    text-decoration: none;
+}
+.header .navbar ul li:hover
+{
+    color:#fff;
+    background-color: #2ecc71;
+}
+
+.header .navbar ul .active
+{
+    color:#fff;
+    background-color: #2ecc71;
+}
+div.best{
+        background-color: currentColor;
+}
+div.best h2{
+    
+        font-size: xx-large;
+    padding: 10px;
+    color: aliceblue;
+
+}
+div.best p{
+        color: aliceblue;
+}
+/*start product*/
+
+div.content{
+    width: 1100px;
+    margin-right: 160px;
+    margin-left: auto;
+    background-color:pink;
+}
+   div .product .container{
+        background-color: pink;
+    }
+div.product {
+    width: 320px;
+    margin-left: 30px;
+    padding-topbackground-color: 10px;
+    padding-bottom: 10px;
+    border-color: black;
+    border-radius: 10px;
+    float: right;
+    background-color: currentColor;
+    /* margin-top: 5px; */
+    margin-bottom: auto;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 380px;
+    margin-bottom: 10px;
+    width: 336px;
+}
+div.image:hover{
+     opacity: 0.5;
+    filter: alpha(opacity=50);
+    -webkit-transition-duration: 5s; /* Safari */
+    
+}
+div.product:hover{
+     opacity: 0.5;
+      transition:background .5s ease-in-out;
+
+}
+div.big img{
+    
+    width: 100%;
+    
+}
+a.order {
+    background-color: deeppink;
+    padding-top: 12px;
+    /* margin-left: 10px; */
+    font-family: fantasy;
+    color: black;
+    font-size: 30;
+    text-decoration: none;
+    float: right;
+    /* padding-left: 22px; */
+    text-align: center;
+    /* padding-right: 22px; */
+    /* padding-bottom: 5px; */
+    width: 47%;
+    height: 52px;
+    font-size: x-large;
+}
+
+    a.order {
+    background-color: deeppink;
+    padding-top: 12px;
+    /* margin-left: 10px; */
+    font-family: fantasy;
+    color: black;
+    font-size: 30;
+    text-decoration: none;
+    float: right;
+    /* padding-left: 22px; */
+    text-align: center;
+    /* padding-right: 22px; */
+    /* padding-bottom: 5px; */
+    width: 47%;
+    height: 52px;
+    font-size: x-large;
+        transition: background .7s ease-in-out;
+}
+a.order:hover{
+     transition: background .7s ease-in-out;
+    background-color: darksalmon;
+    border-radius: 20px;
+    
+}
+div.product h1{
+    color: aliceblue;
+    padding-top: 30px;
+}
+span.price{
+background-color: cornflowerblue;
+    padding-top: 5px;
+    font-size: 30px;
+    margin-right: 10px;
+    font-family: monospace;
+    float: left;
+    padding-right:  22px;
+    text-align: center;
+    padding-left: 22px;
+    padding-bottom: 5px;
+    width:47%;
+    
+}
+.product img{
+        width: 150px;
+}
+.image{
+        height: 210px;
+}
+    div.clear{
+    clear: both;
+}
+/*end product*/
+.portfolio
+{
+    margin:45px 30px;
+    overflow: hidden;
+}
+
+.portfolio h2,
+.portfolio p
+{
+    text-align: center;
+    line-height: 30px;
+    color:#777;
+    margin: 20px
+}
+
+.portfolio .our-work
+{
+    margin: 50px 10px;
+    text-align: center
+}
+
+.portfolio .our-work img
+{
+    width:30%;
+    height: 350px;
+    margin: 10px 10px;
+    padding: 3px;
+    border: 1px solid #CCC;
+    background-color: #CCC;    
+    border-radius: 30px 30px ;
+    transition:all .5s ease-in-out;
+}
+.portfolio .our-work img:hover{
+     border-radius: 30% 30%;
+     border: 1px solid #111;
+     box-shadow: 5px 5px 10px 5px #111 
+}
+
+/********************************************************* Start Contact **********************************************************/
+
+.contact
+{
+    background-color: #252f31;
+    overflow: hidden;
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+
+.contact .cont-info
+{
+    width: 50%;
+    float: left;
+}
+.contact .cont-info h2
+{
+    color:#fff;
+    margin-left: 40px;
+}
+
+.contact .cont-info strong
+{
+    color:#fff;
+}
+.contact .cont-info p
+{
+    color:#6a6e67;
+    line-height: 30px;
+    margin-left: 40px;
+}
+
+.contact .form
+{
+    width: 45%;
+    float: right;
+    margin-top: 10px
+}
+
+.contact .form label
+{
+    color: #fff;
+    display: block;
+    margin-bottom: 10px
+}
+
+.contact .form input
+{
+    background-color: #4b5557;
+    width: 70%;
+    border: 0;
+    padding: 7px;
+    margin-bottom: 10px;
+    color:#fff;
+}
+
+.contact .form textarea 
+{
+    background-color:#4b5557;
+    height: 250px;
+    width: 70%;
+    margin-bottom: 15px;
+    padding: 10px;
+    color: #fff;
+    border: 0;
+}
+.contact .form button
+{
+    display: block;
+    padding: 10px 20px;
+    background-color: #191e22;
+    color: #fff;
+    border: 0;
+    transition:all .5s ease-in-out;
+}
+.contact .form button:hover{
+    background-color: #fff;
+    color: #191e22;
+}
+ 
+/********************************************************* Start footer **********************************************************/
+
+.footer
+{
+    background-color: #191e22;
+    overflow: hidden;
+    height: 50px;
+    text-align: center
+}
+div.accounts{
+        padding: 16px;
+}
+.footer span
+{
+    float: left;
+    line-height:50px;
+    color: #666;
+    transition:all .5s ease-in-out;
+}
+.footer span:hover{
+    color:#019e43
+}
+
+.footer ul
+{
+    float: right;
+    list-style: none;
+}
+
+.footer ul i
+{
+    display: inline-block;
+    padding: 0 5px;
+    color: #666;
+    transition:all .5s ease-in-out;
+}
+.footer ul i:hover{
+    color: #019e43
+}
+
+/********************************************************* Start Start My Frame Work **********************************************************/
+
+.button
+{
+    background: none;
+    margin-top: 15px;   
+    margin-bottom: 30px;
+    padding: 10px 30px;
+    color:#2DCC70;
+    font-size: 18px;
+    font-weight: bold;
+    border: 3px solid #2DCC70;
+    transition:all .5s ease-in-out;
+}
+.button:hover{
+    color:#fff;
+    background: #2DCC70;
+    border: 3px solid #2DCC70;
+    
+}
